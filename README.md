@@ -6,3 +6,5 @@ la première partie s’intéresse à trouver des exemples dans lesquels les op�
 la seconde partie donne des exemples d’algorithmes utilisés dans des conditions de calcul en basse précision.
 
 ![alt text](Figure_1.png)
+
+![alt text](Figure_2.png)
