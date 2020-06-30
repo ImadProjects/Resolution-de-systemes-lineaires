@@ -9,4 +9,4 @@ la seconde partie construit un algorithme appelé « méthode du gradient conjug
 enfin, la dernière partie utilise les algorithmes définis dans les deux premières parties afin de résoudre une équation aux dérivées partielles, l’équation de la chaleur.
 
 ![alt text](Tests_mur_with_solver.png)
-![alt text](Tests_radiateur_with_gradient.png)
+![alt text](Test_radiateur_with_gradient.png)
