@@ -1,0 +1,25 @@
+Dans cette deuxième partie, nous nous intéressons à un second algorithme 
+permettant de résoudre des systèmes linéaires de manière numérique : 
+la méthode du gradient conjugué.
+2.1 Une première implémentation
+La m´ethode du gradient conjugu´e est une m´ethode itérative permettant 
+de r´esoudre le syst`eme Ax = b, en convergeant vers un vecteur solution X. 
+Cette m´ethode est bas´ee sur les propri´et´es du produit scalaire associ´ees 
+`a la matrice A.
+La premi`ere impl´ementation en Matlab qui nous est donn´ee ne respecte pas 
+certaines conventions de codage tels que, l’omission du ”end” pour 
+cloturer la fonction, ou encore le paramètre x qui est un argument inutil du 
+fait qu’il peut ˆetre initialisé à l’int´erieur de la fonction comme ´egal 
+au vecteur nul; x n’est util que s’il repr´esente
+une solution potentielle au syst`eme lin´eaire. Dans le cas d’une solution 
+potentielle entr´ee en argument, nous ´epargnons du travail `a l’algorithme 
+ce qui implique une diminution de la complexit´e. Enﬁn nous préférerons,
+pour un nom de variable composé de plusieurs mots, de différenicer 
+les mots par une majuscule, par exemple: rsOld `a la place 
+de rsold et rsNew à la place de rsnew.
+
+La m´ethode du gradient conjugu´e permet une r´esolution du syst`eme Ax = b, 
+sans toucher `a la matrice A. La recherche de la matrice T `a une complexit´e 
+en O(n3). Le gain de complexit´e occasionn´e est du au non calcul 
+de la matrice T, mais il n’est pas systématique, car le choix de x peut 
+inﬂuencer sur le temps de r´esolution.  
